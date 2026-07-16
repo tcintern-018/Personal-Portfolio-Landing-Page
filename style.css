@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:whitesmoke;
+    color:black;
+    line-height:1.6;
+}
+
+/* Navigation */
+
+nav{
+    background:#222;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px 40px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+   justify-content: space-evenly;
+   width:100%;
+
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:green;
+}
+
+/* Header */
+
+header{
+    background: rgb(88, 86, 86);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    margin-bottom:10px;
+    font-size:40px;
+}
+
+/* Sections */
+
+section{
+    width:85%;
+    margin:40px auto;
+}
+
+section h2{
+    margin-bottom:20px;
+    color:#02262b;
+}
+
+/* Skills */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#352634;
+    color:white;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+/* Projects */
+
+.project-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project{
+    flex:1;
+    min-width:250px;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input,
+textarea{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background: green;
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#0097a7;
+}
+
+/* Footer */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        margin-top:15px;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+
+    .project-container{
+        flex-direction:column;
+    }
+}
