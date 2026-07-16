@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio Landing Page
 
  Project Overview
@@ -48,3 +49,6 @@ The portfolio is fully responsive and works on desktop, tablet, and mobile devic
 The purpose of this project is to improve my front-end development skills by creating a clean and responsive portfolio using only HTML and CSS.
 
 
+=======
+# Personal-Portfolio-Landing-Page
+>>>>>>> 65a4defe897227dc6ce45dcf828949b08cf827c8
